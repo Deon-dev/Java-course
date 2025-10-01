@@ -22,7 +22,7 @@ public class Basic {
         int age = input.nextInt();
         input.nextLine();
 
-        if (18 < age && age<61) {
+        if (age > 18 && age<61) {
             String region = "What Region are you from?";
             System.out.println(region);
             String regionInput = input.nextLine();
